@@ -22,7 +22,7 @@ Steps to run this sample:
 In another terminal instance, clone this repo and run this application.
 
 ```bash
-git clone https://github.com/temporal-hello-world-dsl
+git clone https://github.com/BuilderHarrison/temporal-hello-world-dsl
 cd temporal-hello-world-dsl
 ```
 
