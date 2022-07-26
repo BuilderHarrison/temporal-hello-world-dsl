@@ -1,0 +1,33 @@
+{
+	"id": "helloworld",
+	"version": "1.0",
+	"specVersion": "0.8",
+	"name": "Hello World Workflow",
+	"description": "Hello World",
+	"start": "Hello State",
+	"states": [
+	  {
+		"name": "HelloWorld",
+		"type": "operation",
+		"actionMode": "parallel",
+		"actions": [
+		  {
+			"functionRef": {
+			  "refName": "PrintHelloWorld1",
+			  "arguments": {
+				"arg1": "Hello World1!"
+			  }
+			}
+		  },
+			{"functionRef": {
+				"refName": "PrintHelloWorld2",
+				"arguments": {
+				  "arg1": "Hello World2!"
+				}
+			  }
+			}
+		],
+		"end": true
+	  }
+	]
+  }
